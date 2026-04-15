@@ -69,8 +69,8 @@ echo "✅ 游戏解压到 $TARGET_DIR"
 # ---------- 5. 下载并安装 FNA3D / FAudio（从 GitHub 仓库）----------
 echo "[5/9] 从 GitHub 下载 FNA3D 和 FAudio 库..."
 # 请确保您的仓库中存在这两个文件，路径按实际调整
-FNA3D_URL="https://raw.githubusercontent.com/1878107721/termux-Terraria-installer/main/libs/libFNA3D.so.0"
-FAUDIO_URL="https://raw.githubusercontent.com/1878107721/termux-Terraria-installer/main/libs/libFAudio.so.0"
+FNA3D_URL="https://raw.githubusercontent.com/1878107721/termux-Terraria-installer/main/libFNA3D.so.0"
+FAUDIO_URL="https://raw.githubusercontent.com/1878107721/termux-Terraria-installer/main/libFAudio.so.0"
 
 curl -L -o "$PREFIX/lib/libFNA3D.so.0" "$FNA3D_URL"
 curl -L -o "$PREFIX/lib/libFAudio.so.0" "$FAUDIO_URL"
